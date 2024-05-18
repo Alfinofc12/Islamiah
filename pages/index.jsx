@@ -59,15 +59,6 @@ export default function JadwalSolatHariIni() {
       setTanggal(indonesianDate())
       setJam(indonesianDate(true))
 
-
-//s
-<script type="cdca29a5d45566d198d2cba0-text/javascript">
-            const theme = localStorage.getItem('theme')
-            if ((theme === 'dark') || (! theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                document.documentElement.classList.add('dark')
-            }
-        </script>
-
       // Sholat berikutnya.
       if (jadwalSholat) {
         if (jadwalSholat.timings) {
