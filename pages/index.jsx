@@ -30,6 +30,19 @@ export default function JadwalSolatHariIni() {
   const [jam, setJam] = useState(indonesianDate(true))
   const [next, setNext] = useState({ name: '-', countDown: 0 })
 
+<style>
+            [x-cloak=""], [x-cloak="x-cloak"], [x-cloak="1"] { display: none !important; }
+            @media (max-width: 1023px) { [x-cloak="-lg"] { display: none !important; } }
+            @media (min-width: 1024px) { [x-cloak="lg"] { display: none !important; } }
+        </style>
+<script type="cdca29a5d45566d198d2cba0-text/javascript">
+            const theme = localStorage.getItem('theme')
+            if ((theme === 'dark') || (! theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark')
+            }
+        </script>
+        
+
   // Fetch jadwal sholat
   useEffect(() => {
     // Query string
